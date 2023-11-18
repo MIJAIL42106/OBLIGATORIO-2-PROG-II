@@ -23,13 +23,13 @@
     - ingresos
         - en cualquier orden
     - al ingresar queda ordenado
-        - de menor a mayor          // ABB
+        - de menor a mayor          - ABB
 - al realizar cosulta
     - se registran datos
-        - fecha de consulta
-        - breve descripcion
-        - cedula
-        - evaluacion resultante     // enum
+        - fecha de consulta         - fecha
+        - breve descripcion         - string
+        - cedula                    - long
+        - evaluacion resultante     - enum
             - EN TRATAMIENTO
             - NECESITA PROTESIS
             - SALUDABLE
@@ -54,8 +54,8 @@
         - verificar - cedula existe en sistema
                     - fecha valida y >=anterior
                         - >= ultima consulta
-    - eliminar paciente de sistema 
-        - dada su cedula
+    - eliminar paciente de sistema      // 2 estructuras
+        - dada su cedula 
         - verificar - cedula existe en sistema
         + tambien
             - eliminar consultas del paciente
@@ -105,6 +105,6 @@
         + todos los datos en una linea
         - verificar - fecha valida
 - consultas
-    - buenas noches
-- 
+    - buenas noches QUEVEDO CON EL LINTON MA LA MENTE ARRASANDO EL SKYYYYY
+- diavlo ke hedshot le di
 */
